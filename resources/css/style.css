@@ -159,7 +159,6 @@ nav li a {
 }
 
 .info-block .info-head {
-  width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left: 2rem;
@@ -170,4 +169,12 @@ nav li a {
   color: #000000;
   background-color: #FFFFFF;
   width: 100%;
+}
+
+/*Footer styling*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 5rem;
 }
