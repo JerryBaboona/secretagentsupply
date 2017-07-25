@@ -127,7 +127,7 @@ nav li a {
   margin-bottom: 2rem;
 }
 
-.product #glasses {
+#glasses img {
   max-width: 9rem;
   height: auto;
   margin-top: auto;
@@ -169,6 +169,7 @@ nav li a {
   color: #000000;
   background-color: #FFFFFF;
   width: 100%;
+  height: 40%;
 }
 
 /*Footer styling*/
@@ -177,4 +178,16 @@ footer {
   align-items: center;
   justify-content: flex-start;
   height: 5rem;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 1024px) {
+  /*Product grid, change width and hide glasses*/
+  #glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
 }
