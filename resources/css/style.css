@@ -195,11 +195,9 @@ footer {
     width: 47%;
   }
 
-  /*Hide menu items except hidden menu*/
+  /*Hide menu items except hidden menu and center it*/
   nav ul {
-    display: flex;
     justify-content: center;
-    width: 100%;
   }
 
   nav li {
@@ -212,5 +210,49 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
+  /*Move banner heading to the bottom of banner and make it span the page*/
+  .banner .container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+  }
 
+  .banner .container .arrivals {
+    width: 100%;
+  }
+
+  /*Product grid, show only pen and center*/
+  .product-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  /*Stack info blocks*/
+  .shop-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info-block {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+  /*Center footer text*/
+  footer {
+    width: 100%;
+    justify-content: center;
+  }
 }
