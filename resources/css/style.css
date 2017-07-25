@@ -84,6 +84,10 @@ nav ul {
   width: 100%;
 }
 
+nav ul #hidden-menu {
+  display: none;
+}
+
 nav li {
   display: inline;
   padding-top: 0.75rem;
@@ -190,4 +194,23 @@ footer {
   .product {
     width: 47%;
   }
+
+  /*Hide menu items except hidden menu*/
+  nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  nav ul #hidden-menu {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
 }
